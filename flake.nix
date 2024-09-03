@@ -24,7 +24,7 @@
       sha256,
     }:
       pkgs.stdenv.mkDerivation rec {
-        pname = "pkl-cli";
+        pname = "pkl";
         inherit version;
 
         src = pkgs.fetchurl {
